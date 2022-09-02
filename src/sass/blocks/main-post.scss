@@ -16,5 +16,28 @@
                 object-fit: cover;
             }
         }
-    
+        .post__imageblock {
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+            .post__imageblock_item{
+                margin: 30px auto 0 auto; 
+                img{
+                    width: 100%;
+                }
+            }
+        }
+
+    .share{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 50px;
+        &__item{
+            margin-right: 20px;
+            font-size: 13px;
+            font-family: "Ubuntu";
+            color: rgb(180, 173, 158);
+            text-transform: uppercase;        
+        }
+    }
 }

@@ -9,6 +9,11 @@
     src: url(../fonts/PlayfairDisplay-Regular.ttf)
 }
 @font-face {
+    font-family: 'PlayfairDisplay';
+    src: url(../fonts/PlayfairDisplay-Bold.ttf);
+    font-weight: bold;
+}
+@font-face {
     font-family: 'Inconsolata';
     src: url(../fonts/Inconsolata-Regular.ttf)
 }
@@ -27,6 +32,10 @@
 .container{
     max-width: 1200px;
     margin: 0 auto;
+    &_small {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
 }
 
 .title {
