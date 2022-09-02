@@ -3,6 +3,7 @@
 @import 'blocks/posts.scss';
 @import 'blocks/news.scss';
 @import 'blocks/footer.scss';
+@import 'blocks/alsolike.scss';
 
 @font-face {
     font-family: 'PlayfairDisplay';
@@ -43,6 +44,19 @@
     font-size: 30px;
     font-family: "PlayfairDisplay";
     color: rgb(98, 98, 98);
+}
+.title_light{
+    font-size: 14px;
+    font-family: "Ubuntu";
+    color: rgb(180, 173, 158);
+    text-transform: uppercase;
+}
+
+.subtitle{
+      font-size: 20px;
+      font-family: "PlayfairDisplay";
+      color: rgb(98, 98, 98);
+      margin-top: 20px;
 }
 
 .article {
