@@ -1,5 +1,6 @@
 @import 'blocks/header.scss';
 @import 'blocks/main-post.scss';
+@import 'blocks/posts.scss';
 
 @font-face {
     font-family: 'PlayfairDisplay';
@@ -25,6 +26,23 @@
     max-width: 1200px;
     margin: 0 auto;
 }
+
+.title {
+    margin: 30px 0;
+    font-size: 30px;
+    font-family: "PlayfairDisplay";
+    color: rgb(98, 98, 98);
+}
+
+.article {
+    margin: 40px auto 50px auto;
+    font-size: 14px;
+    font-family: "PlayfairDisplay";
+    color: rgb(98, 98, 98);
+    line-height: 1.714;
+    text-align: left;          
+}
+
 
 .link {
     a {
