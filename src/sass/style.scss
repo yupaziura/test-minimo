@@ -1,0 +1,17 @@
+@import 'blocks/header.scss';
+@font-face {
+    font-family: 'PlayfairDisplay';
+    src: url(../fonts/PlayfairDisplay-Regular.ttf)
+}
+@font-face {
+    font-family: 'Inconsolata';
+    src: url(../fonts/Inconsolata-Regular.ttf)
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}

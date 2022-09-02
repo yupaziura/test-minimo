@@ -1,0 +1,39 @@
+
+   nav {
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+    }
+
+
+      
+    
+    .header {
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+        width: 100%;
+
+        &__minimo {
+
+                font-size: 30px;
+                font-family: "Inconsolata";
+                color: rgb(0, 0, 0);
+                text-transform: uppercase;
+        }
+
+        &__item {
+            font-size: 14px;
+            font-family: "PlayfairDisplay";
+            text-transform: uppercase;
+
+            a {
+                text-decoration: none;
+                cursor: pointer;
+                color: rgb(98, 98, 98);
+
+            }    
+        }
+      }
+      
+
