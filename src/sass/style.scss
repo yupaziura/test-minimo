@@ -1,4 +1,6 @@
 @import 'blocks/header.scss';
+@import 'blocks/main-post.scss';
+
 @font-face {
     font-family: 'PlayfairDisplay';
     src: url(../fonts/PlayfairDisplay-Regular.ttf)
@@ -7,6 +9,10 @@
     font-family: 'Inconsolata';
     src: url(../fonts/Inconsolata-Regular.ttf)
 }
+@font-face {
+    font-family: 'Ubuntu';
+    src: url(../fonts/Ubuntu-Regular.ttf)
+}
 
 * {
     box-sizing: border-box;
@@ -14,4 +20,19 @@
     -moz-box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.link {
+    a {
+        font-size: 14px;
+        font-family: "Ubuntu";
+        color: rgb(180, 173, 158);
+        text-transform: uppercase;
+        text-decoration: none;
+        cursor: pointer;
+    }
 }
