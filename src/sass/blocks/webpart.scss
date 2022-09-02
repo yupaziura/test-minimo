@@ -1,0 +1,49 @@
+.webpart__wrapper{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    overflow:initial;
+    .webpart__item {
+        &_article{
+            width: 70%;
+        }
+        &_aside{
+            position: sticky;
+            bottom: 0;
+            align-self: flex-end;
+            margin-top: 50px;
+            width: 25%; 
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .title_light {
+        margin-top: 70px;
+    }
+
+    .list{
+        margin-top: 40px;
+        margin-left: 30px;
+        margin-bottom: 50px;
+        color: rgb(98, 98, 98);
+    }
+
+    .listitem{
+        &_main {
+            margin-bottom: 15px;
+            font-size: 16px;
+            font-family: "PlayfairDisplay";
+        }
+        &_sub{
+            margin-bottom: 35px;
+            font-size: 12px;
+            font-family: "Ubuntu";
+            color: rgb(180, 173, 158);
+            text-transform: uppercase;    
+        }
+    }
+}
