@@ -20,14 +20,14 @@
 
 @media screen and (max-width: 991px) {
     .container {
-        max-width: 767px;
+        max-width: 750px;
     }
     .wrapper{
         justify-content: center;
     }
 
     .main__photo{
-        max-width: 767px;
+        max-width: 750px;
     }
 }
 
@@ -109,7 +109,42 @@
             max-width: 300px;
         }
     }
+
+    .webpart__wrapper{
+        .webpart__item{
+            &_article{
+                width: 85%;
+            }
+            &_aside {
+                display: none;
+                width: 10%;
+                &_small{
+                    display: block;
+                    padding-top: 50px;
+                    position: sticky;
+                    top: 0;
+                    align-self: flex-start;
+                    button {
+                        border: none;
+                        background-color: transparent;
+                    }
+                }
+            }
+        }
+    }
+    .profile {
+        background-color: white;
+        position: absolute;
+        top: 20px;
+        margin: 0 auto;
+        padding: 10px;
+        border: 1px solid black;
+        right: 0;
+        height: calc(100vh - 20px);
+    }
 }
+
+
 @media screen and (max-width: 475px){
     .container {
         max-width: 300px;

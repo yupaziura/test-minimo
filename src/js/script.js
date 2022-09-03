@@ -39,6 +39,33 @@ function closeMenu(){
     })
 }
 
+function openProfile () {
+    const button = document.querySelector('#avatar');
+    const closeButton = document.querySelector('#close_profile')
+
+    const profile = document.querySelector('.profile');
+
+    button.addEventListener('click', ()=>{
+
+        if (window.getComputedStyle(profile).display === 'none' )
+        {
+            profile.style.display = 'block';
+            document.body.style.overflow = 'hidden';    
+            profile.style.overflow = 'scroll';
+        }
+        else {
+            profile.style.display = 'none';
+            document.body.style.overflow = 'scroll'; 
+        }
+    })
+
+    closeButton.addEventListener('click', ()=> {
+        profile.style.display = 'none';
+        document.body.style.overflow = 'scroll'; 
+}   )
+}
+
 carusel();
 openMenu ();
 closeMenu();
+openProfile ();
