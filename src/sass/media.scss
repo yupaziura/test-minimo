@@ -1,0 +1,136 @@
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 900px;
+    }
+
+    .main__photo{
+        max-width: 990px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .container {
+        max-width: 767px;
+    }
+    .wrapper{
+        justify-content: center;
+    }
+
+    .main__photo{
+        max-width: 767px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        max-width: 574px;
+    }
+    .main__photo{
+        max-width: 574px;
+    }
+
+    .wrapper {
+        .post {
+            margin-top: 70px;
+        }
+    }
+    .header{
+        .nav_big{
+            width: 65%;
+        }
+    }
+}
+
+@media screen and (max-width: 574px) {
+    .container {
+        max-width: 375px;
+    }
+    .main__photo{
+        max-width: 375px;
+    }
+    .header{
+        .menu {
+            display: block;
+            button{
+                border: none;
+                background-color: transparent;
+            }
+        }
+        .nav_big{
+            display: none;
+        }
+        .nav_small{
+            display: none;
+        }
+        .nav_small.active{
+            display: block;
+            width:100%;
+            height:100%;
+            background-color:white;
+            padding:30px;
+            position: absolute;
+            top:0;
+            left: 0;
+            z-index: 30;
+            display: flex;
+            justify-content: space-between;
+            align-items:center;
+            flex-direction: column;
+        }
+    }
+
+
+    .close {
+        button{
+            border: none;
+            background-color: transparent;
+            position: absolute;
+            top:30px;
+            right:30px;
+        }
+    }
+
+    .wrapper {
+        .post {
+            max-width: 300px;
+        }
+    }
+}
+@media screen and (max-width: 475px){
+    .container {
+        max-width: 300px;
+    }
+    .main__photo{
+        max-width: 300px;
+    }
+
+    .news {
+        .input {
+            width: 300px;
+        }
+        .send_button{
+            left:290px;
+        }
+    }
+
+    .footer__wrapper{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .container {
+        max-width: 280px;
+    }
+    .main__photo{
+        max-width: 280px;
+    }
+    .news {
+        .input {
+            width: 280px;
+        }
+        .send_button{
+            left:260px;
+        }
+    }
+}

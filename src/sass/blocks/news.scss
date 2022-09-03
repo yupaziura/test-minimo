@@ -8,6 +8,8 @@
     background-color: rgb(240, 240, 240);
 
     .input {
+        margin: 0 auto;
+        display: block;
         border: 0;
         border-bottom: 1px solid black;
         width: 400px;
@@ -27,5 +29,8 @@
         left: 360px;
         bottom: 10px;
         cursor: pointer;
+    }
+    .title {
+        text-align: center;
     }
 }

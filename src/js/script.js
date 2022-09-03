@@ -21,4 +21,24 @@ function carusel () {
     })
 }
 
+function openMenu () {
+    const button = document.querySelector('#button__menu');
+    const menu = document.querySelector('.nav_small');
+
+    button.addEventListener('click', () => {
+        menu.classList.add('active');
+    })
+}
+
+function closeMenu(){
+    const button = document.querySelector('#button__close');
+    const menu = document.querySelector('.nav_small');
+
+    button.addEventListener('click', () => {
+        menu.classList.remove('active');
+    })
+}
+
 carusel();
+openMenu ();
+closeMenu();

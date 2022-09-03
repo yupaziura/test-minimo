@@ -1,18 +1,22 @@
-
-   nav {
-        display: flex;
-        justify-content: space-between;
-        width: 50%;
-    }
-
-
-      
-    
     .header {
         display: flex;
         justify-content: space-between;
         padding: 30px 70px;
         width: 100%;
+        .nav_big{
+            visibility: visible;
+            display: flex;
+            justify-content: space-between;
+            width: 50%;
+            flex-direction: row;
+        }
+        .nav_small{
+            display: none;
+        }
+
+        .menu{
+            display: none;
+        }
 
         &__minimo {
                 h1{
