@@ -11,10 +11,18 @@
     }
 
     &_item{
+        cursor: pointer;
         max-width: 270px;
+        &:hover{
+            img{
+                transform: scale(1.1);
+            }
+        }
+
         img{
             object-fit: cover;
             width: 100%;
+            transition: all 0.5s;
         }
     }
 }

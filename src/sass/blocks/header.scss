@@ -36,7 +36,11 @@
                 text-decoration: none;
                 cursor: pointer;
                 color: rgb(98, 98, 98);
-
+                transition: all .5s;
+                &:hover{
+                    color: black;
+                    // font-weight: bold;
+                }
             }    
         }
       }

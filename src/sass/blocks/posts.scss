@@ -32,4 +32,9 @@
     border: 1px solid rgb(98, 98, 98);
     background-color: rgba(255, 255, 255, 0);
     cursor: pointer;
+    transition: all .3s;
+    &:hover{
+        background-color:rgb(233, 233, 233);
+        border: 1px solid rgb(78, 78, 78);
+    }
 }
